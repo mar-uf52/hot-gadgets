@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+.navigation-text{
+    font-size: 20px;
+    color: gray;
+}
+.button{
+    background: linear-gradient(to right, #FFC120, #FF9C35);
+    padding: 12px 40px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
+.container{
+    margin-bottom: px;
+}
+.carousel-bg{
+    background-image: url(bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.indicator{
+    height: 100px;
+}
+.card-round{
+    border-radius: 15px;
+}

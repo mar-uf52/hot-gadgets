@@ -1,12 +1,218 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot Gadgets By Maruf A. Ariyan</title>
-</head>
-<body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <title>Hot Gadget By Maruf A. Ariyan</title>
+  </head>
+  <body>
     
-</body>
+    <!-- navigation start -->
+    <section class="navigation bg-light">
+        <div class="container navigation-text ">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid py-5">
+                  <a class="navbar-brand" href="#">
+                      <img src="logo.png" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto ">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </section>
+    <!-- navigation end -->
+
+    <!-- carousel start -->
+    <section class="carousel carousel-bg  bg-light">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-warning rounded " aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2 " class="bg-warning rounded"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="bg-warning"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row align-items-center justify-content-center py-5 px-5">
+                        <div class="col-md-6">
+                                <h1>Mackbook Pro</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis odio mollitia, sunt ipsa at consequatur voluptatum! Quasi quis vel Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, magnam. </p>
+                                <button type="button" class="button">Buy Now</button>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img src="banner-products/product-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row align-items-center justify-content-center py-5 px-5">
+                        <div class="col-md-6">
+                                <h1>Google Nest</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis odio mollitia, sunt ipsa at consequatur voluptatum! Quasi quis vel Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, magnam. </p>
+                                <button type="button" class="button">Buy Now </button>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="banner-products/slider-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row align-items-center justify-content-center px-5 py-5">
+                        <div class="col-md-6">
+                                <h1>Mi Bluetooth Speake</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis odio mollitia, sunt ipsa at consequatur voluptatum! Quasi quis vel Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, magnam. </p>
+                                <button type="button" class="button">Buy Now </button>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="banner-products/slider-3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+
+    <!-- carousel end -->
+
+    <!-- smartphone start -->
+        <section class="smartphone bg-light">
+            <div class="container pt-5 ">
+                <div class="d-flex justify-content-between pb-5">
+                    <h2>Smartphone</h2>
+                    <h4 class="text-warning fw-bold">See All</h4>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col ">
+                      <div class="card h-100 pt-5 border-0 shadow card-round">
+                        <img src="phone/phone-1.png" class="card-img-top " alt="...">
+                        <div class="card-body">
+                          <h3 class="card-title text-center">Redmi poco x3</h3>
+                          <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quaerat quisquam alias? Explicabo, amet iste.</p>
+                          <h3 class="text-center text-dark fw-bolder">$699</h3>
+                          <button type="button" class="button d-flex mx-auto">Buy Now </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 pt-5 border-0 shadow card-round">
+                          <img src="phone/phone-2.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h3 class="card-title text-center">Iphone 11 Pro</h3>
+                            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quidem accusamus velit beatae! Provident, illum?</p>
+                            <h3 class="text-center text-dark fw-bolder">$999</h3>
+                            <button type="button" class="button d-flex mx-auto">Buy Now </button>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 pt-5 border-0 shadow card-round">
+                        <img src="phone/phone-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h3 class="card-title text-center">Galaxy s10 ultra</h3>
+                          <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae illum aliquid pariatur alias natus!</p>
+                          <h3 class="text-center text-dark fw-bolder">$799</h3>
+                          <button type="button" class="button d-flex mx-auto">Buy Now </button>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                
+            </div>
+        </section>
+     <!-- smartphone end -->
+
+     <!-- laptop start  -->
+        <section class="laptop bg-light">
+            <div class="container pt-5">
+                <div class="d-flex justify-content-between pb-5">
+                    <h2>Laptop</h2>
+                    <h4 class="text-warning fw-bold">See All</h4>
+
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col ">
+                      <div class="card h-100 pt-5 border-0 shadow card-round">
+                        <img src="laptop/product-1.png" class="card-img-top " alt="...">
+                        <div class="card-body">
+                          <h3 class="card-title text-center">Asus VivoBook</h3>
+                          <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quaerat quisquam alias? Explicabo, amet iste.</p>
+                          <h3 class="text-center text-dark fw-bolder">$699</h3>
+                          <button type="button" class="button d-flex mx-auto">Buy Now </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 pt-5 border-0 shadow card-round">
+                          <img src="laptop/product-2.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h3 class="card-title text-center">Razer Blade 15</h3>
+                            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quidem accusamus velit beatae! Provident, illum?</p>
+                            <h3 class="text-center text-dark fw-bolder">$999</h3>
+                            <button type="button" class="button d-flex mx-auto">Buy Now </button>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 pt-5 border-0 shadow card-round">
+                        <img src="laptop/product-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h3 class="card-title text-center">Xiaomi Mi NoteBook Pro</h3>
+                          <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae illum aliquid pariatur alias natus!</p>
+                          <h3 class="text-center text-dark fw-bolder">$799</h3>
+                          <button type="button" class="button d-flex mx-auto">Buy Now </button>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+     <!-- laptop end  -->
+
+
+
+
+
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>

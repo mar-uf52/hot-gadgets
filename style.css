@@ -29,3 +29,21 @@
 .card-round{
     border-radius: 15px;
 }
+.shadow2{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.line{
+    height: 8px;
+    width: 130px;
+    background: linear-gradient(to right, #FFC120, #FF9C35);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    
+}
+.smartphone-bg{
+    background-image: url(bg-2.png);
+    background-position: left right;
+    background-repeat: no-repeat;
+   
+}
